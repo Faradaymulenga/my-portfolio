@@ -1,0 +1,283 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing:border-box;
+}
+
+
+:root{
+
+     --blue: #007bff;
+     --indigo: #6610f2;
+     --purple: #6f42c1;
+     --pink: #e83e8c;
+     --red: #dc3545;
+     --orange: #fd7e14;
+     --light-orange: #f5aa09;
+     --yellow: #ffc107;
+     --green: #28a745;
+     --teal: #20c997;
+     --cyan: #17a2b8;
+     --white: #fff;
+     --gray: #6c757d;
+     --gray-dark: #202224;
+     --primary: #007bff;
+     --secondary: #6c757d;
+     --success: #28a745;
+     --info: #17a2b8;
+     --warning: #ffc107;
+     --danger: #dc3545;
+     --light: #f8f9fa;
+     --dark: #080808;
+     --aqua: #00ffff;
+ 
+ }
+
+/*=========================
+	Start index CSS
+===========================*/
+
+html{
+     
+     font-size: 65.5%;
+     font-family: Arial, Helvetica, sans-serif 'poppins';
+     max-width: 1200px;
+     min-height: 500px;
+     width: 100%;
+     margin: 30px auto;
+
+ }
+
+body{
+
+     background-color: var(--light-orange);
+     background-size: cover;
+     align-items: center; 
+     list-style: none;
+     text-decoration: none;
+}
+
+
+h1{
+     text-align: left;
+     font-size: 1.2rem;
+     font-family:Arial, Helvetica, sans-serif 'poppins';
+     line-height: 1.2;
+     color: var(--dark);
+
+}
+
+a{
+     font-weight: 40rem;
+     text-decoration: none;
+     line-height: 1.5;
+     font-size: 1.6rem;
+     font-family:Arial, Helvetica, sans-serif 'poppins';
+     color: var(--dark);
+     display: inline
+
+}
+
+ul{
+     list-style: none;
+}
+
+nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 15px;
+}
+
+
+/*=========================
+	Start home CSS
+===========================*/
+
+.logo{
+     width: 20rem;
+     margin-left: 4.0rem;
+}
+
+.navbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-right: 5.0rem;
+     gap: 40px;
+
+}
+
+li a:hover{
+     
+     transition: ease-in all 0.5s;
+     color: var(--light-orange);
+}
+
+
+#home{
+     
+	background-position: center;
+	height: 100hv;
+	margin-top: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--white);
+}
+
+
+.home-form{
+   
+	padding-bottom: 190px;
+	border-radius: 20px;
+	width: 40rem;
+	height: 30rem;
+	margin-right: 50px;
+	background-image: url(image/my\ profile.jpg);
+	background-position: center;
+	background-size:contain;
+	background-color: var(--lightsalmon);
+	box-shadow: 0 30px 45px var(--light-orange);
+	display: inline-block;
+}
+
+#home h1{
+
+	font-size: 42px;
+	margin: 20px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+
+.home-text p{
+
+	font-family: cursive;
+	margin-top: 30px;
+
+}
+
+.highlight{
+	
+	color: var(--dark);
+	font-family: cursive;
+}
+
+
+.main{
+     background-color: var(--white);
+     border-radius: 30px;
+}
+
+.content{
+
+     display: flex;
+     flex-direction: column;
+}
+
+.profile{
+     display: flex;
+
+}
+
+.social-icons{
+     display: flex;
+     width: 20px;
+     gap: 10px;
+}
+
+button{
+
+     
+     width: 100%;
+     max-width: 175px;
+	height: 70px;
+	margin-top: 10px;
+	background-color: var(--light-orange);
+	display: inline-block;
+     text-transform: capitalize;
+     border-radius: 10px;
+     border: inherit;
+     box-shadow: inherit;
+     font-size: 19px;
+     transition: ease-in all 0.5s;
+     color: #fff;
+     
+}
+
+button a{
+	
+	color: var(--white);
+	font-family:Arial, Helvetica 'poppins', sans-serif ;
+}
+
+button:hover{
+	background-color: var(--gray);
+	color: var(--white);
+}
+
+.button:hover{
+	color: var(--white);
+}
+
+.img{
+     width: 30px;
+}
+
+
+/*=========================
+	Start footer CSS
+===========================*/
+footer{
+	margin-top: 10px
+}
+
+.footer{
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
+     margin: 0;
+}
+
+.footer-p{
+	font-size: 30px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.small-text {
+
+    font-size: 1.2rem;
+	margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif 'poppins';
+    font-style: oblique;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+         
+}
+
+
+
+
+
+/*=========================
+	End footer CSS
+===========================*/
+
+
+/*=========================
+	End index CSS
+===========================*/
+
+ 
